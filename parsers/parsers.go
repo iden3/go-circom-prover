@@ -26,7 +26,7 @@ type PkString struct {
 	C          [][]string          `json:"C"`
 	NVars      int                 `json:"nVars"`
 	NPublic    int                 `json:"nPublic"`
-	VkAlpha1   []string            `json:"vk_alfa_1"`
+	VkAlpha1   []string            `json:"vk_alpha_1"`
 	VkDelta1   []string            `json:"vk_delta_1"`
 	VkBeta1    []string            `json:"vk_beta_1"`
 	VkBeta2    [][]string          `json:"vk_beta_2"`
@@ -50,7 +50,7 @@ type ProofString struct {
 
 // VkString is the Verification Key data structure in string format (from json)
 type VkString struct {
-	Alpha []string   `json:"vk_alfa_1"`
+	Alpha []string   `json:"vk_alpha_1"`
 	Beta  [][]string `json:"vk_beta_2"`
 	Gamma [][]string `json:"vk_gamma_2"`
 	Delta [][]string `json:"vk_delta_2"`
